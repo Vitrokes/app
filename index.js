@@ -1,11 +1,12 @@
-// hello world
-const mensagem = 3;
+let metas = {
+    value: "ler um livro todo mês",
+    checked: false,
 
-{
-
-    const mensagem = 4;
-    console.log(mensagem);
-
+    log: (info) => {
+        console.log(info)
+    }
 }
 
-console.log(mensagem);
+metas.log(metas.value)
+
+function criarMetas() {}

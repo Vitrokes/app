@@ -2,4 +2,5 @@
     Fases da resolução do projeto
     Processamento das informações
     Tipos de dados
-    
+    Arrays e objetos
+    Funções
