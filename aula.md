@@ -15,3 +15,5 @@
     Limpar tela
     Polir codigo
     Sistema de mensagens na tela
+    Carregar e Salvar mensagens
+    Usar JSON
