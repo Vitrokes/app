@@ -1,9 +1,35 @@
-function start () {
-    console.log('Começou a contar:')
-    let contador = 0
-    while(contador <= 10){
-        console.log('número ' + contador)
-        contador = contador + 2
+const { select } = require('@inquirer/prompts')
+
+const start = async () => {
+    while(true){
+        const opcao = await select({
+            message: "Menu >",
+            choices: [
+                {
+                    name: "Cadastrar meta",
+                    value: "cadastrar"
+                },
+                {
+                    name: "Listar metas",
+                    value: "listar"
+                },
+                {
+                    name: "Sair",
+                    value: "sair"
+                }
+            ]
+        })
+        switch(opcao){
+            case "cadastrar":
+                console.log("Vamos cadastrar")
+                break
+            case "listar":
+                console.log("Litando metas")
+                break
+            case "sair":
+                console.log("Até a próxima")
+                return
+        }
     }
 }
 start()
