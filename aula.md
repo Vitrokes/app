@@ -9,4 +9,9 @@
     Estruturas de repetição
     Módulos em Node.js
     Promises: funções de await e async
-    
+
+03 - Tratamento de aplicação
+    Funções as/sincrona
+    Limpar tela
+    Polir codigo
+    Sistema de mensagens na tela
