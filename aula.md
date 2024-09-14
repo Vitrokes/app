@@ -4,3 +4,7 @@
     Tipos de dados
     Arrays e objetos
     Funções
+
+02 - Fundamentos
+    Estruturas de repetição
+    
