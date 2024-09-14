@@ -7,4 +7,6 @@
 
 02 - Fundamentos
     Estruturas de repetição
+    Módulos em Node.js
+    Promises: funções de await e async
     
